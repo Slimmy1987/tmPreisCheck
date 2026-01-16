@@ -13,28 +13,25 @@
         
         @media print {
             @page { 
-                margin: 1.5cm;
-                size: landscape;
+                margin: 1cm;
+                size: portrait;
             }
             .no-print { display: none !important; }
             .print-only { display: block !important; }
-            body { background: white; color: black; }
-            .main-content { padding: 0 !important; margin: 0 !important; }
+            body { background: white; color: black; font-size: 10pt; }
+            main { padding: 0 !important; margin: 0 !important; }
             table { 
                 width: 100%; 
                 border-collapse: collapse; 
-                margin-top: 1rem;
+                margin-bottom: 2rem;
             }
             th, td { 
-                border: 1px solid #e2e8f0 !important; 
-                padding: 10px !important;
+                border-bottom: 1px solid #ddd !important; 
+                padding: 6px !important;
             }
-            th { background-color: #f8fafc !important; color: #475569 !important; }
-            .best-price { 
-                background-color: #f0fdf4 !important; 
-                border: 2px solid #22c55e !important;
-                font-weight: bold !important;
-            }
+            th { background-color: #f8fafc !important; text-align: left; }
+            .best-price { font-weight: bold !important; color: #166534 !important; }
+            .break-inside-avoid { page-break-inside: avoid; }
         }
         .print-only { display: none; }
     </style>
