@@ -3,13 +3,13 @@ import { getFirestore, doc, setDoc, onSnapshot } from "https://www.gstatic.com/f
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAp66hKd3-HY4AaC4bB1zhMIbh-7ZC2X6k",
-  authDomain: "preisvergleich-1f383.firebaseapp.com",
-  projectId: "preisvergleich-1f383",
-  storageBucket: "preisvergleich-1f383.firebasestorage.app",
-  messagingSenderId: "710299848020",
-  appId: "1:710299848020:web:dcb11de266a1f3f79d0cc1",
-  measurementId: "G-0XNRG4X3LR"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 const app = initializeApp(firebaseConfig);
